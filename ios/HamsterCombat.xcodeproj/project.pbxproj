@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* HamsterCombatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HamsterCombatTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-HamsterCombat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-HamsterCombat.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-HamsterCombat-HamsterCombatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HamsterCombat-HamsterCombatTests.a */; };
+		13B7B3B4F4B6D6C41F310ADB /* libPods-HamsterCombat-HamsterCombatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC309AD9E4B072F99AFF4BCE /* libPods-HamsterCombat-HamsterCombatTests.a */; };
+		30D58E3D7A354F2EF3DEAB3C /* libPods-HamsterCombat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5578FE56E20E432AC916FC1A /* libPods-HamsterCombat.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DC7F285D9AF46CEBA0DCA6CD /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6ED821ECE5448DCA774540C7 /* PrivacyInfo.xcprivacy */; };
+		E2DBFFEA2C5254540093218D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE32C5254540093218D /* Poppins-Light.ttf */; };
+		E2DBFFEB2C5254540093218D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE42C5254540093218D /* Poppins-Bold.ttf */; };
+		E2DBFFEC2C5254540093218D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE52C5254540093218D /* Poppins-SemiBold.ttf */; };
+		E2DBFFED2C5254540093218D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE62C5254540093218D /* Poppins-Medium.ttf */; };
+		E2DBFFEE2C5254540093218D /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE72C5254540093218D /* Poppins-Black.ttf */; };
+		E2DBFFEF2C5254540093218D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE82C5254540093218D /* Poppins-Regular.ttf */; };
+		E2DBFFF02C5254540093218D /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DBFFE92C5254540093218D /* Poppins-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +44,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HamsterCombat/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HamsterCombat/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HamsterCombat/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = HamsterCombat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-HamsterCombat-HamsterCombatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HamsterCombat-HamsterCombatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-HamsterCombat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat.debug.xcconfig"; path = "Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-HamsterCombat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat.release.xcconfig"; path = "Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig"; path = "Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-HamsterCombat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HamsterCombat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = HamsterCombat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		17C704ABAD52B6D04D4DA9E4 /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat-HamsterCombatTests.release.xcconfig"; path = "Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests.release.xcconfig"; sourceTree = "<group>"; };
+		5578FE56E20E432AC916FC1A /* libPods-HamsterCombat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HamsterCombat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED821ECE5448DCA774540C7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = HamsterCombat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HamsterCombat/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat-HamsterCombatTests.release.xcconfig"; path = "Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FCEA984C3AAE83A61487B30 /* Pods-HamsterCombat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat.release.xcconfig"; path = "Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat.release.xcconfig"; sourceTree = "<group>"; };
+		A594A87B9327B337D5E035DE /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig"; path = "Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC309AD9E4B072F99AFF4BCE /* libPods-HamsterCombat-HamsterCombatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HamsterCombat-HamsterCombatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DBFFE32C5254540093218D /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E2DBFFE42C5254540093218D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E2DBFFE52C5254540093218D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../Sources/Assets/Fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E2DBFFE62C5254540093218D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E2DBFFE72C5254540093218D /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		E2DBFFE82C5254540093218D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E2DBFFE92C5254540093218D /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "../../Sources/Assets/Fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD98B869241E3A4A4EF74903 /* Pods-HamsterCombat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterCombat.debug.xcconfig"; path = "Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-HamsterCombat-HamsterCombatTests.a in Frameworks */,
+				13B7B3B4F4B6D6C41F310ADB /* libPods-HamsterCombat-HamsterCombatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-HamsterCombat.a in Frameworks */,
+				30D58E3D7A354F2EF3DEAB3C /* libPods-HamsterCombat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +110,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				6ED821ECE5448DCA774540C7 /* PrivacyInfo.xcprivacy */,
 			);
 			name = HamsterCombat;
 			sourceTree = "<group>";
@@ -102,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-HamsterCombat.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-HamsterCombat-HamsterCombatTests.a */,
+				5578FE56E20E432AC916FC1A /* libPods-HamsterCombat.a */,
+				DC309AD9E4B072F99AFF4BCE /* libPods-HamsterCombat-HamsterCombatTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +135,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				E2DBFFE22C5253570093218D /* Fonts */,
 				13B07FAE1A68108700A75B9A /* HamsterCombat */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HamsterCombatTests */,
@@ -142,12 +160,26 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-HamsterCombat.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-HamsterCombat.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */,
+				FD98B869241E3A4A4EF74903 /* Pods-HamsterCombat.debug.xcconfig */,
+				9FCEA984C3AAE83A61487B30 /* Pods-HamsterCombat.release.xcconfig */,
+				A594A87B9327B337D5E035DE /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */,
+				17C704ABAD52B6D04D4DA9E4 /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2DBFFE22C5253570093218D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E2DBFFE72C5254540093218D /* Poppins-Black.ttf */,
+				E2DBFFE42C5254540093218D /* Poppins-Bold.ttf */,
+				E2DBFFE32C5254540093218D /* Poppins-Light.ttf */,
+				E2DBFFE62C5254540093218D /* Poppins-Medium.ttf */,
+				E2DBFFE82C5254540093218D /* Poppins-Regular.ttf */,
+				E2DBFFE52C5254540093218D /* Poppins-SemiBold.ttf */,
+				E2DBFFE92C5254540093218D /* Poppins-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,12 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HamsterCombatTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				3FA4EFDA8301A72EBC561AF8 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				E48FF4DDCBFF97E51717726A /* [CP] Embed Pods Frameworks */,
+				BAA2301D019BDB33BEEDDB0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,13 +210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HamsterCombat" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				C5D54829A283321BB227BA3E /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				6DE2248B37B324B7E13C7A46 /* [CP] Embed Pods Frameworks */,
+				9660E41B57DDDBE4488E7208 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,8 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DBFFEE2C5254540093218D /* Poppins-Black.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				E2DBFFED2C5254540093218D /* Poppins-Medium.ttf in Resources */,
+				E2DBFFEF2C5254540093218D /* Poppins-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E2DBFFEB2C5254540093218D /* Poppins-Bold.ttf in Resources */,
+				E2DBFFEC2C5254540093218D /* Poppins-SemiBold.ttf in Resources */,
+				DC7F285D9AF46CEBA0DCA6CD /* PrivacyInfo.xcprivacy in Resources */,
+				E2DBFFEA2C5254540093218D /* Poppins-Light.ttf in Resources */,
+				E2DBFFF02C5254540093218D /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,24 +307,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		3FA4EFDA8301A72EBC561AF8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +329,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		6DE2248B37B324B7E13C7A46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9660E41B57DDDBE4488E7208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA2301D019BDB33BEEDDB0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D54829A283321BB227BA3E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,7 +402,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		E48FF4DDCBFF97E51717726A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,40 +417,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat/Pods-HamsterCombat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HamsterCombat-HamsterCombatTests/Pods-HamsterCombat-HamsterCombatTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -412,7 +452,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */;
+			baseConfigurationReference = A594A87B9327B337D5E035DE /* Pods-HamsterCombat-HamsterCombatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -439,7 +479,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */;
+			baseConfigurationReference = 17C704ABAD52B6D04D4DA9E4 /* Pods-HamsterCombat-HamsterCombatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -463,7 +503,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HamsterCombat.debug.xcconfig */;
+			baseConfigurationReference = FD98B869241E3A4A4EF74903 /* Pods-HamsterCombat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -490,7 +530,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HamsterCombat.release.xcconfig */;
+			baseConfigurationReference = 9FCEA984C3AAE83A61487B30 /* Pods-HamsterCombat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -517,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -544,6 +585,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -563,6 +605,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -582,7 +626,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -590,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -617,6 +665,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -629,6 +678,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -647,7 +698,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
