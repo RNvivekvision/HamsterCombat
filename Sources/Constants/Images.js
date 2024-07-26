@@ -9,6 +9,12 @@ const Images = {
   drawer_2: require(imagePath + 'drawer_2' + png),
   drawer_3: require(imagePath + 'drawer_3' + png),
   drawer_4: require(imagePath + 'drawer_4' + png),
+  rabbit: require(imagePath + 'rabbit' + png),
+  purchase: require(imagePath + 'purchase' + png),
+  cross: require(imagePath + 'cross' + png),
+  removeAds: require(imagePath + 'removeAds' + png),
+  dollar: require(imagePath + 'dollar' + png),
+  dollarCoins: require(imagePath + 'dollarCoins' + png),
 };
 
 export default Images;

@@ -32,6 +32,7 @@ const DrawerContent = ({ navigation }) => {
                   <RNText
                     size={FontSize.font14}
                     family={FontFamily.SemiBold}
+                    color={Colors.Black}
                     pLeft={wp(4)}>
                     {v.title}
                   </RNText>

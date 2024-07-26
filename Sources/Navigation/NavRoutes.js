@@ -1,5 +1,4 @@
 const NavRoutes = {
-  Agreement: 'Agreement',
   Drawer: 'Drawer',
   Home: 'Home',
   Mine: 'Mine',

@@ -33,7 +33,12 @@ const RNHeader = ({
           containerStyle={styles.icon}
         />
         <RNText style={[styles.title, titleStyle]}>{title}</RNText>
-        <View style={[styles.icon, { backgroundColor: Colors.Transparent }]} />
+        <RNIcon
+          icon={Images.purchase}
+          onPress={() => {}}
+          containerStyle={styles.icon}
+        />
+        {/* <View style={[styles.icon, { backgroundColor: Colors.Transparent }]}></View> */}
       </View>
       {noScroll ? (
         children

@@ -1,14 +1,17 @@
 import { StyleSheet, View } from 'react-native';
-import { RNContainer, RNHeader } from '../Common';
+import { RNText } from '../Common';
+import { HAContainer, EarnPerTap, Points } from '../Components';
 
 const Home = () => {
   return (
-    <RNContainer>
-      <RNHeader title={'Home'} back={false}></RNHeader>
-    </RNContainer>
+    <HAContainer title={'Home'} back={false}>
+      <EarnPerTap />
+
+      <Points />
+    </HAContainer>
   );
 };
 
-export default Home;
-
 const styles = StyleSheet.create({});
+
+export default Home;

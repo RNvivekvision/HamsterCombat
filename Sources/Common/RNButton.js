@@ -16,7 +16,6 @@ const RNButton = ({
   icon,
   iconStyle,
   isLoading,
-  doubleTicks = true,
 }) => {
   const styles = useStyles({ disable });
 
@@ -33,9 +32,6 @@ const RNButton = ({
           {icon && <RNImage source={icon} style={[styles.icon, iconStyle]} />}
           <View style={RNStyles.flexRowBetween}>
             <RNText style={[styles.buttonText, textStyle]}>{title}</RNText>
-            {doubleTicks && (
-              <RNImage source={Images.doubleTicks} style={styles.doubleTicks} />
-            )}
           </View>
         </>
       )}
